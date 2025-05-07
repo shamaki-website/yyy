@@ -1,0 +1,158 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/*headedr.....................*/
+header{
+  background-color: brown;
+  color: white;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  
+}
+.logo{
+  width: 40px;
+  border-radius: 20px;
+}
+
+.logo a{
+  color: white;
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li{
+  margin-left: 25px;
+  list-style: none;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+nav ul li a:hover{
+  color:gray
+}
+
+.search{
+  position: relative;
+}
+.search input{
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.search button{
+  position: absolute;
+  top: o;
+  right: 0;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  transition: 0.4s ease;
+                                                                
+}
+
+.search button:hover{
+  color: gray;
+}
+
+
+
+/*hero................*/
+
+.hero{
+  background-image: url(images/Library\ Background.jpeg);
+  padding: 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero h1{
+  font-size: 48px;
+  color: gray;
+}
+.hero p{
+  font-size: 24px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+/*forms..............*/
+.forms{
+  background-color: brown;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-align: left;
+}
+
+form{
+  color: white;
+  margin: 20px;
+}
+
+.Name, .Email, .password{
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.IName, .IEmail, .Ipassword, .IPassword, .fbutton{
+  border: 3px solid black;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 280px;
+  height: 35px;
+  background: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.click{
+  text-decoration: none;
+  color: grey;
+}
+
+.fbutton{
+  background-color: gray;
+  border: none;
+}
+
+/*footer...........*/
+footer{
+  background-color: brown;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}

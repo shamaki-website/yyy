@@ -1,0 +1,164 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/*headedr.....................*/
+header{
+  background-color: brown;
+  color: white;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  
+}
+.logo{
+  width: 40px;
+  border-radius: 20px;
+}
+
+.logo a{
+  color: white;
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li{
+  margin-left: 25px;
+  list-style: none;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+nav ul li a:hover{
+  color:gray
+}
+
+.search{
+  position: relative;
+}
+.search input{
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.search button{
+  position: absolute;
+  top: o;
+  right: 0;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  transition: 0.4s ease;
+                                                                
+}
+
+.search button:hover{
+  color: gray;
+}
+
+
+
+
+/*hero................*/
+
+.hero{
+  background-image: url(images/Library\ Background.jpeg);
+  padding: 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.hero h1{
+  font-size: 48px;
+  color: gray;
+}
+.hero p{
+  font-size: 24px;
+  color: white;
+  margin-bottom: 30px;
+  
+  
+}
+.main-content{
+  background-color: brown;
+  padding: 40px;
+  border-radius: 10px;
+}
+.videos{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin-top: 40px;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.video img{
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.video h3{
+  font-size: 24px;
+  margin-top: 0px;
+}
+.video p{
+  margin-top: 5px;
+  color: brown;
+}
+.btn{
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.4s ease;
+}
+.btn:hover{
+  color: black;
+  background-color: white;
+}
+
+
+/*footer...........*/
+footer{
+  background-color: brown;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
